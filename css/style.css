@@ -75,6 +75,7 @@ nav {
   margin: auto;
   align-items: center;
   flex-wrap: wrap;
+  position: fixed;
 }
 nav ul {
   list-style: none;
@@ -198,7 +199,45 @@ nav ul {
 .card-icon img {
   max-width: 25%;
 }
+/*Conact section*/
 
+.contact {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 4), transparent),
+    url("../img/contact-mountain.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-wrapper {
+  background: rgba(19, 28, 39, 0.8);
+  width: 60%;
+  color: white;
+  border-radius: 15px;
+}
+.form-head {
+  text-align: center;
+  padding: 4rem;
+}
+.name-form,
+.email-form {
+  padding: 3rem 0;
+  text-align: center;
+}
+.form-wrapper label {
+  margin: 0rem 3rem;
+}
+.form-wrapper button {
+  width: 100%;
+  padding: 2rem;
+  margin-top: 4rem;
+  border-radius: 0 0 15px 15px;
+}
+input {
+  padding: 1rem;
+}
 /*
 
 
