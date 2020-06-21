@@ -9,15 +9,15 @@ html {
   font-size: 62.5%;
 }
 @font-face {
-  src: url("/fonts/Poppins/Poppins-Medium.ttf");
+  src: url("../fonts/Poppins/Poppins-Medium.ttf");
   font-family: Poppins-bold;
 }
 @font-face {
-  src: url("/fonts/Poppins/Poppins-ExtraLight.ttf");
+  src: url("../fonts/Poppins/Poppins-ExtraLight.ttf");
   font-family: Poppins-light;
 }
 @font-face {
-  src: url("/fonts/Pattaya/Pattaya-Regular.ttf");
+  src: url("../fonts/Pattaya/Pattaya-Regular.ttf");
   font-family: Pattaya;
 }
 body {
@@ -91,7 +91,7 @@ nav ul {
 .hero {
   min-height: 93vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), transparent),
-    url("/img/landing-page.jpg");
+    url("../img/landing-page.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -110,7 +110,7 @@ nav ul {
 .locations {
   min-height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 4), transparent),
-    url("/img/new-york-page.png");
+    url("../img/new-york-page.png");
   background-size: cover;
   background-position: center;
   display: flex;
