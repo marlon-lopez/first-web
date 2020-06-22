@@ -66,6 +66,9 @@ button:hover {
 /*Nav section */
 .main-head {
   background-color: #131c27;
+  position: sticky;
+  top: 0px;
+  z-index: 5;
 }
 nav {
   min-height: 7vh;
@@ -75,7 +78,6 @@ nav {
   margin: auto;
   align-items: center;
   flex-wrap: wrap;
-  position: fixed;
 }
 nav ul {
   list-style: none;
@@ -238,6 +240,29 @@ nav ul {
 input {
   padding: 1rem;
 }
+footer {
+  background: rgba(19, 28, 39, 1);
+  color: white;
+}
+.footer-wrapper {
+  display: flex;
+  padding: 2rem;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  min-height: 10vh;
+  flex-wrap: wrap;
+}
+.footer-wrapper h5 {
+  flex: 1 1 40rem;
+}
+.footer-wrapper ul {
+  display: flex;
+  list-style: none;
+  flex: 1 1 40rem;
+  justify-content: space-between;
+  align-items: center;
+}
 /*
 
 
@@ -266,5 +291,12 @@ input {
   .locations-head h3 {
     background: rgba(19, 28, 39, 0.8);
     -webkit-text-fill-color: white;
+  }
+  .form-wrapper {
+    width: 90%;
+  }
+  .footer-wrapper h5 {
+    text-align: center;
+    padding: 3rem 0;
   }
 }
